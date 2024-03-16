@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+html,body{
+    scroll-behavior: smooth;
+}
+
+.mainContainer{
+    width: 100%;
+}
+.landingPage{
+    /* background-image: url(../images/landingPageBg.png);
+    background-repeat: no-repeat; */
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+
+}
+.navBar i{
+    color: white;
+}
+.lrWidth{
+    width: 6%;
+    background-color:#00132b;
+    height: 90px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* position: relative; */
+}
+
+.lrWidth i{
+    /* position: absolute; */
+    /*left: 50%;
+    top: 50%; */
+}
+.navigation{
+    background-color: #ed242e;
+    width: 88%;
+    position: relative;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 7%;
+}
+.pdNavBar{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+}
+
+.navItem,.navItem > a{
+    color: #fef6fc;
+    font-size: 17px;
+    display: block;
+    text-transform: uppercase;
+    /* padding-right: 70px; */
+}
+.logoName{
+    font-weight: bold;
+}
+
+.logoName::before{
+    position: absolute;
+    content: "";
+    width: 158px;
+    height: 96px;
+    background-image: url(../images/covido.png);
+    z-index: 999;
+    margin: 0 auto;
+    left: 0%;
+    right: 0%;
+    top: 67%;
+
+}
